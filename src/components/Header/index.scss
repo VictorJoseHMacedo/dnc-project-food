@@ -1,0 +1,52 @@
+.nav__bar {
+    background-color: #E39F0B;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+    &-img {
+        width: 5%;
+        height: 2%;
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+
+    &-title {
+        width: 5%;
+        height: 2%;
+        padding-top: 35px;
+        padding-left: 5px;
+        color: white;
+    }
+    ul{ 
+        display: flex;
+        list-style-type: none;
+        column-gap: 48px;
+        padding-left: 70px;
+        font-size: 22px;
+        line-height: 26px;
+        justify-content: center;
+        cursor: pointer;
+        padding-top: 30px;
+        padding-left:30px;
+        color: white;
+    }
+
+    .nav__bar-buy {
+        display: flex;
+        flex-direction: row;
+        padding-left: 820px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .img-text {
+        padding-top: 25px;
+    }
+
+    .img-buy {
+        padding-bottom: 30px;
+        padding-top: 5px;
+    }
+}

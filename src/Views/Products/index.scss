@@ -1,0 +1,43 @@
+.home {
+    &__products {
+      padding: 0 166px 166px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 25px;
+      gap: 6rem;
+      justify-content: center;
+      padding-top: 50px;
+      
+    }
+    &__card {
+      width: 334px;
+      height: 337px;
+      border-radius: 8px;
+      border: 1px solid #E39F0B;
+    }
+  
+    &__card-description {
+      padding: 16px;
+      text-align: center;
+  
+      p {
+        padding-bottom: 11px;
+      }
+  
+      button {
+        height: 24px;
+        width: 128px;
+        background-color: #E39F0B;
+        border: 0;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        color: white;
+      }
+  
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
