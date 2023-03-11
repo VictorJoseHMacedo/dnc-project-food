@@ -14,9 +14,10 @@
 .container {
     background-color: #fff;
     z-index: 10;
+    align-items: center;
     color: #000;
-    width: 70%;
-    height: 75%;
+    width: 40%;
+    height: 45%;
     border-radius: 15px;
     display: flex;
 }
@@ -24,9 +25,10 @@
 .container-img {
     width: 50%;
     height: 60%;
-    padding-left: 50px;
-    padding-top: 50px;
+    padding-left: 1px;
+    margin-left: 5px;
     border: 1px solid #E39F0B;
+    row-gap: gap;
 }
 
 .description-item{
@@ -34,8 +36,8 @@
     flex-direction: column;
     justify-content: flex-end;
     position: absolute;
-    top: 590px;
-    right: 1200px;
+    top: 600px;
+    right: 1000px;
 }
 
 .description {
@@ -50,13 +52,11 @@
 
 .modal__right {
     padding-left: 15px;
-    padding-top: 25px;
-    
+
 }
      
     .cart{
         text-align: left;
-        padding-top: 110px;
         font-size: 30px;
         color: orange;
         
@@ -81,14 +81,7 @@
     
     }
     
-
-    .button-finish {
-        background-color: gray;
-        height: 8%;
-        width: 3%;
-        position: absolute;
-        left: 1080px;
-        bottom: 300px;
-        align-items: center;
-        border-radius: 5px;
+    .buttons{
+        display: flex;
+        justify-content: flex-end;
     }
