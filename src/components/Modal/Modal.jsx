@@ -21,13 +21,10 @@ const Modal = ({data}) => {
                     <p className="item-title">{data.title}</p>
                     <h2 className="item-price">{data.price}</h2>
                 </div>
-                <div className="buttons">
-                
-                    <button className="button-finish">
-                        <Link to={`/`}>Finalizar Compra </Link>
-                    </button>
+                    <button className="button-buy">Continuar Comprando</button>
 
-                    </div>
+                    <button className="button-finish">Finalizar Compra</button>
+
                 </div>
             </div>
   )

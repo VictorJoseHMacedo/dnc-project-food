@@ -10,7 +10,7 @@ const ProductsCard = ({ data }) => {
       <img src={data.imgPath} alt="model" />
       <div className="home__card-description">
         <p>{data.title}</p>
-        <button onClick={() => setIsModalVisible(true)}>Adicionar</button>
+        <button onClick={() => setIsModalVisible(true)} className="button-products" >Adicionar</button>
 
         {isModalVisible ? <Modal data={data}/> : null}
       </div>
