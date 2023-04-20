@@ -11,8 +11,10 @@ const ProductsCard = ({ data }) => {
       <div className="home__card-description">
         <p>{data.title}</p>
         <button onClick={() => setIsModalVisible(true)} className="button-products" >Adicionar</button>
-
-        {isModalVisible ? <Modal data={data}/> : null}
+      {
+        isModalVisible ? <Modal onClose={ () => setIsModalVisible(false)} data={data}/>
+        : null
+      }
       </div>
     </div>
   );

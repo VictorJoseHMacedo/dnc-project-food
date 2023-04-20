@@ -3,15 +3,18 @@ import React, {useState} from 'react';
 import { Link } from "react-router-dom";
 
 
-const Modal = ({data}) => { 
+const Modal = ({data, onClose = () => {}}) => { 
     const [isModalVisible, setIsModalVisible] = useState(false);
-    {isModalVisible ? <Modal data={data}/> : null}
-
-
-  return (
-    <div className="modal">
+    return (
+        
+<div className="modal">
+        function closeModal() 
+        {isModalVisible ? ( setIsModalVisible(true)
+        
+    ) : false}
         <div className="container">
             <img src={data.imgPathDetail} alt={data.title} className="container-img"/>
+            <button className="close" onClick={onClose}></button>
             <div className="description-item">
             <p>{data.title}</p>
                 <h5 className="description-text">Lorem ipsum dolor sit amet consectur</h5>
@@ -26,6 +29,7 @@ const Modal = ({data}) => {
                     <button className="button-finish">Finalizar Compra</button>
 
                 </div>
+
             </div>
   )
 }

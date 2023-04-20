@@ -36,22 +36,18 @@
     flex-direction: column;
     justify-content: flex-end;
     position: absolute;
-    top: 600px;
-    right: 1000px;
-}
-
-.description {
-    padding-bottom: 15px;
+    top: 595px;
+    right: 950px;
 }
 
 .description-text{
-    padding-top: 10px;
+    padding-top: 20px;
     border-bottom: 2px solid orange;
     
 }
 
 .modal__right {
-    padding-left: 15px;
+    padding-left: 20px;
 
 }
      
@@ -93,7 +89,7 @@
         border-radius: 5px;
     
         position: absolute;
-        right: 642px;
+        right: 550px;
         bottom: 350px;
         cursor: pointer;
     } 
@@ -110,9 +106,39 @@
         border-radius: 5px;
 
         position: absolute;
-        right: 640px;
+        right: 550px;
         bottom: 300px;
         cursor: pointer;
       }
       
+
+      .close {
+        left: 350px;
+        bottom: 180px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        display: flex;
+        position: relative;
+        &::before,
+        &::after {
+            content: ' ';
+            position: absolute;
+            width: 2.5px;
+            height: 24px;
+            background-color: #000;
+        }
+        &:before {
+            transform: rotate(45deg);
+        }
+        &:after {
+            transform: rotate(-45deg);
+        }
+
+        
+
+      }
     
