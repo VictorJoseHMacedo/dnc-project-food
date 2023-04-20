@@ -34,10 +34,15 @@
         color: white;
     }
 
+    li:hover {
+        color: red;
+        transition: 0.5s ease-in-out;
+    }
+
     .nav__bar-buy {
         display: flex;
         flex-direction: row;
-        padding-left: 820px;
+        padding-left: 375px;
         color: white;
         cursor: pointer;
     }
@@ -52,3 +57,4 @@
         padding-top: 5px;
     }
 }
+

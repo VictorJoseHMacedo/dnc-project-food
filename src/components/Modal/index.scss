@@ -1,6 +1,6 @@
 .modal {
     width:100%;
-    height: 100%;
+    height: 120%;
     position: absolute;
     top: 0;
     left: 0;
@@ -17,7 +17,7 @@
     align-items: center;
     color: #000;
     width: 40%;
-    height: 45%;
+    height: 40%;
     border-radius: 15px;
     display: flex;
 }
@@ -26,7 +26,7 @@
     width: 50%;
     height: 60%;
     padding-left: 1px;
-    margin-left: 5px;
+    margin-left: 9px;
     border: 1px solid #E39F0B;
     row-gap: gap;
 }
@@ -37,11 +37,12 @@
     justify-content: flex-end;
     position: absolute;
     top: 595px;
-    right: 950px;
+    right: 1000px;
 }
 
 .description-text{
-    padding-top: 20px;
+    padding-top: 120px;
+    margin-left: 90px;
     border-bottom: 2px solid orange;
     
 }
@@ -66,7 +67,7 @@
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
-        padding-top: 20px;
+        padding-top: 35px;
     
         border-bottom: 2px solid orange;
     
@@ -89,8 +90,8 @@
         border-radius: 5px;
     
         position: absolute;
-        right: 550px;
-        bottom: 350px;
+        right: 630px;
+        bottom: 430px;
         cursor: pointer;
     } 
     
@@ -106,14 +107,14 @@
         border-radius: 5px;
 
         position: absolute;
-        right: 550px;
-        bottom: 300px;
+        right: 630px;
+        bottom: 380px;
         cursor: pointer;
       }
       
 
       .close {
-        left: 350px;
+        left: 340px;
         bottom: 180px;
         background-color: transparent;
         border: none;

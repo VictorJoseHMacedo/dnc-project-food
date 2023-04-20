@@ -3,6 +3,8 @@ import cart from "../../assets/cart-shop.png";
 import "./index.scss"
 
 const Header = () => {
+
+
   return (
     <div className="nav__bar">
       <img src={logoDnc} alt="logo dnc" className="nav__bar-img"></img>
